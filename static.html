@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CJ jewellers | Buy Jewellery Online </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/cj.jpg" width="125px">
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="">Home</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Shop 
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="#">For Men</a>
+                          <a href="#">For Women</a>
+                        </div>
+                      </div> 
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.jpg" height="30px" width="30px" alt="">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Elegance with Perfection</h1>
+                <p>Jewelry is more than just an accessory ― it’s an expression of who we are.</p>
+                <a href="" class="btn">Explore Now &#8594</a>
+            </div>
+            <div class="col-2">
+                <img src="images/image2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+   <div class="header2">
+   <div class="categories">
+       <div class="small-container">
+           <div class="row">
+               <div class="col-3">
+                   <img src="images/jewel1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/jewel2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/jewel3.jpg" alt="">
+                </div>
+            </div>
+       </div>
+   </div>
+
+    <div class="small-container">
+        <h2 class="title">Featured Collections</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product1.jpg" alt="">
+                <h4>Silver Colored Bridal Ring Set</h4>
+            </div>
+            <div class="col-4">
+                <img src="images/product2.jpg" alt="">
+                <h4>Gold neckless </h4>
+            </div>
+            <div class="col-4">
+                <img src="images/product3.jpg" alt="">
+                <h4>Silver Colored Band Set</h4>
+    
+            </div>
+            <div class="col-4">
+                <img src="images/product4.jpg" alt="">
+                <h4>Gold Ring with Diamond</h4>
+            </div>
+        </div>
+        <h2 class="title">Newly arrived</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product5.jpg" alt="">
+                <h4>Gold netted Earring</h4>
+            </div>
+            <div class="col-4">
+                <img src="images/product6.jpg" alt="">
+                <h4>Gold stone studded Earring  </h4>
+            </div>
+            <div class="col-4">
+                <img src="images/product7.jpg" alt="">
+                <h4>Silver Colored Earring</h4>
+            </div>
+            <div class="col-4">
+                <img src="images/product8.jpg" alt="">
+                <h4>Ruby Earring </h4>
+            </div>
+    </div> 
+    </div>
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p>MAGIC! This is the first word that came my mind when I opened my delivery.
+                        <h3>Hayley, Australia</h3></p>
+                </div>
+                <div class="col-3">
+                    <p>Where do I start! So many positive things to say ... Beautiful quality and design. Great small Australian business with wonderful ethical and environmental values ... I love this jewellery and hope to eventually have one of everything!
+                        <h3>Alison - Canberra, Australia</h3></p>
+                </div>
+                <div class="col-3">
+                    <p>Your customer service is fantastic and your jewellery is beautiful. I'm looking forward to my next Simone Walsh purchase.<h3>Janet - Australia</h3></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download our app for Android and ios mobile phones</p>
+                    <div class="app-logo">
+                        <img src="images/playstore.jpg" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <p>India’s beauty lies in its diversity. Every part of India has its unique jewellery, the expertise to create those exist only in that region, passed on through generations.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return</li>
+                        <li>Join Affiliates</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Pintrest</li>
+                        <li>Instagran</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 </p>
+        </div>
+    </div>
+     <script>
+         var menuitems = document.getElementById("menuitems");
+
+         menuitems.style.maxHeight = "0px";
+         function menutoggle(){
+             if(menuitems.style.maxHeight=="0px")
+             {
+                 menuitems.style.maxHeight="200px";
+             }
+             else
+             {
+                menuitems.style.maxHeight= "0px";
+             }
+         }
+     </script>
+</body>
+</html>
